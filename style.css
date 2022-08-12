@@ -1,8 +1,15 @@
+h1 {
+    text-align: center;
+}
+
 .recipe {
     border: 1px solid black;
     display: block;
+    float: left;
     width: 30%;
+    min-height: 500px;
     padding: 0.5em; 
+    margin: 3px;
 }
 
 .name {
@@ -11,8 +18,9 @@
     text-align: center;
 }
 
-.image {
-    text-align: center; 
+img {
+    margin: auto;
+    display: block;
     height: 70%;
     width: 70%;
 }
@@ -20,3 +28,11 @@
 .description {
     font-style: italic;
 }
+
+a:hover {
+    color: red;
+}
+
+/* a:visited {
+    color: grey;
+} */
